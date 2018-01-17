@@ -9,6 +9,9 @@ import random
 import numpy as np
 from matplotlib import pyplot as plt
 
+global PRICES
+global RESAMPLED_PRICES
+
 tickersList = \
 [
 	"BTC-XVG",
@@ -174,6 +177,82 @@ tickersList = \
 	"USDT-BTC"
 ]
 
+class Position:
+
+	def __init__(self):
+
+		self.ticker = ""
+		self.averageBuyPrice = 0.000
+		self.amount = 0.000
+
+	def __init__(self, ticker):
+
+		self.ticker = ticker
+		self.averageBuyPrice = 0.000
+		self.amount = 0.000
+
+	def buyAt(self, buyPrice, buyAmount):
+
+		self.averageBuyPrice = (self.averageBuyPrice * self.amount + buyPrice * buyAmount) / (self.amount + buyAmount)
+		self.amount = self.amount + buyAmount
+
+		# return value
+		return buyPrice * buyAmount
+
+	def sellAt(self, sellPrice, sellAmount):
+
+		sell.amount = self.amount + sellAmount
+
+		# return value
+		return sellPrice * sellAmount
+
+class Portfolio:
+
+	def __init__(self):
+
+		self.positions = {}
+		self.fiat = 0.00
+		return
+
+	def addAsset(self, ticker):
+
+		if not(ticker in self.positions.keys()):
+			self.positions[ticker] = Position(ticker)
+			print("[Morning Star] Message: Asset {} added to portfolio.".format(ticker))
+			return True
+		else:
+			print("[Morning Star] Warning: Position {} exists in portfolio already.".format(ticker))
+			return False
+
+	def buyAsset(self, ticker, buyPrice, amount):
+
+		if not(ticker in self.positions.keys()):
+			print("[Morning Star] Error: Asset {} does not exist in portfolio.".format(ticker))
+			return False
+
+		self.fiat = self.fiat - self.positions[ticker].buyAt(buyPrice, amount)
+
+	def buyAsset(self, ticker, buyPrice, pcntFiat):
+
+		if not(ticker in self.positions.keys()):
+			print("[Morning Star] Error: Asset {} does not exist in portfolio.".format(ticker))
+			return False
+
+		print("[Morning Star] Message: Bought {} at {} for {}".format(ticker, buyPrice, pcntFiat * self.fiat))
+		self.fiat = self.fiat - self.positions[ticker].buyAt(buyPrice, self.fiat * pcntFiat / buyPrice)
+
+	def sellAsset(self, ticker, sellPrice, amount):
+
+		if not (ticker in self.positions.keys()):
+			print("[Morning Star] Error: Asset {} does not exist in portfolio.".format(ticker))
+			return False
+
+		self.fiat = self.fiat + self.positions[ticker].sellAt(sellPrice, amount)
+
+	def deposit(self, amount):
+
+		self.fiat = self.fiat + amount
+
 def fetchBittrexPrice():
 	i = 0
 	time.sleep(30)
@@ -295,21 +374,37 @@ def getReturnRate(df, dayCount):
 	return df
 
 def main():
+
+	global PRICES
+	global RESAMPLED_PRICES
 	# autoregressive.test()
 	# compileData()
-	df = loadCompiledData()
-	#
-	# i = 0
-	# tickers = list(df)
-	# while i < 10:
-	# 	portfolio = df[random.sample(tickers, 10)]
-	# 	print(portfolio.columns)
-	# 	i = i + 1
+	PRICES = loadCompiledData()
+	PRICES.index = pd.to_datetime(PRICES.index)
+	RESAMPLED_PRICES = pd.DataFrame()
 
-	portfolio = df[random.sample(list(df), 10)]
+	for ticker in list(PRICES):
+
+		asset = PRICES[ticker].to_frame()
+		asset = asset.resample("1D").last()
+
+		if RESAMPLED_PRICES.empty:
+			RESAMPLED_PRICES = asset
+		else:
+			RESAMPLED_PRICES = RESAMPLED_PRICES.join(asset, how="outer")
+
+	portfolio = PRICES[random.sample(list(PRICES), 10)]
+	portfolio.index = pd.to_datetime(portfolio.index)
+
+	# print(list(portfolio))
+	# print(RESAMPLED_PRICES.tail())
+	# exit(1)
+
+	resampledPortfolio = RESAMPLED_PRICES[list(portfolio)]
+
 	# print(portfolio.head())
 
-	ticker = list(portfolio)[0]
+	resampledPortfolio.dropna(inplace=True)
 
 	portfolioCumReturnRate = pd.DataFrame()
 	portfolio3DReturnRate = pd.DataFrame()
@@ -318,7 +413,7 @@ def main():
 
 	for ticker in list(portfolio):
 		asset = pd.DataFrame()
-		asset = portfolio[ticker].to_frame()
+		asset = resampledPortfolio[ticker].to_frame()
 		asset["return"] = asset[ticker] - asset.shift(1)[ticker]
 		asset["2Dreturn"] = asset[ticker] - asset.shift(2)[ticker]
 		asset["3Dreturn"] = asset[ticker] - asset.shift(3)[ticker]
@@ -331,13 +426,31 @@ def main():
 
 	# Assume every day is an end to a iteration
 
-	evalutaion = pd.DataFrame()
+	evaluation = pd.DataFrame()
 	for ticker in list(portfolio):
 
-		evalutaion[ticker] = (portfolio3DReturnRate[ticker] ** 2) * portfolio2DReturnRate[ticker] * \
+		evaluation[ticker] = (portfolio3DReturnRate[ticker] ** 2) * portfolio2DReturnRate[ticker] * \
 		                     (portfolio1DReturnRate[ticker] ** 0.5) / portfolioCumReturnRate[ticker]
 
-	print(portfolioCumReturnRate.tail())
+	evaluation = evaluation.div(evaluation.sum(axis=1), axis=0)
+
+	p = Portfolio()
+
+	for ticker in list(resampledPortfolio):
+
+		p.addAsset(ticker)
+
+	p.deposit(5000.00)
+
+	for i, ((j,rowp), (k, rowe)) in enumerate(zip(resampledPortfolio.iterrows(), evaluation.iterrows())):
+
+		if i == 0:
+
+			for ticker in list(rowp.index):
+
+				p.buyAsset(ticker, rowp[ticker], pcntFiat=0.1)
+
+
 	# firstAsset = portfolio[ticker].to_frame()
 	# print(firstAsset)
 
