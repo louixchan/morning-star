@@ -2,10 +2,333 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d96f3619-6b36-48b9-a8ba-921e57741bed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MorningStar.iml" afterPath="$PROJECT_DIR$/.idea/MorningStar.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-1ST.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ABY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ADA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ADT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ADX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-AEON.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-AGRS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-AMP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ANT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ARK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BAT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BAY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BCC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BITB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BLITZ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BLK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BNT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BRK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BSD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BTG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BURST.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-BYC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CANN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CFI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CLAM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CLOAK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CLUB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-COVAL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CPC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CRB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CRW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-CVC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DASH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DCR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DCT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DGB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DGD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DNT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DOGE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DOPE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DTB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-DYN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EBST.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EDG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EGC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EMC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EMC2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ENG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ETC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ETH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EXCL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-EXP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-FCT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-FLDC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-FTC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-FUN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GAME.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GBYTE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GCR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GEO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GNO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GNT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GRS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-GUP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-HMQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-IOC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-IOP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-KMD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-KORE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-LBC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-LMC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-LSK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-LTC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-LUN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MAID.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MANA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MCO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MEME.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MER.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MONA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MTL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MUE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MUSIC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-MYST.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NAV.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NBT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NEO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NEOS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NMR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NXC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NXS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-NXT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-OK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-OMG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-OMNI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PART.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PAY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PINK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PIVX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PKB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-POT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-POWR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PPC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-PTOY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-QRL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-QTUM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-QWARK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-RADS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-RCN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-RDD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-REP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-RISE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-RLC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SALT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SBD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SHIFT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SIB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SLR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SLS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SNT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SPHR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SPR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-START.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-STEEM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-STORJ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-STRAT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SWT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SYNX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-SYS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-THC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-TIX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-TKS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-TRIG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-TRST.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-TX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-UBQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-UKG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-UNB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-VIA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-VIB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-VOX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-VRC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-VTC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-WAVES.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-WINGS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XCP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XDN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XEL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XEM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XLM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XMG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XMR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XMY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XRP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XVG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-XZC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ZCL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ZEC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/BTC-ZEN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-archive/USDT-BTC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MorningStar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MorningStar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-1ST.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ABY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ADA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ADT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ADX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-AEON.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-AGRS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-AMP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ANT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ARK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BAT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BAY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BCC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BITB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BLITZ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BLK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BNT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BRK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BSD.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BTG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BURST.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-BYC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CANN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CFI.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CLAM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CLOAK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CLUB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-COVAL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CPC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CRB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CRW.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-CVC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DASH.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DCR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DCT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DGB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DGD.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DNT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DOGE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DOPE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DTB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-DYN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EBST.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EDG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EGC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EMC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EMC2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ENG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ETC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ETH.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EXCL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-EXP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-FCT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-FLDC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-FTC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-FUN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GAME.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GBYTE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GCR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GEO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GNO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GNT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GRS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-GUP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-HMQ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-IOC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-IOP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-KMD.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-KORE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-LBC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-LMC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-LSK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-LTC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-LUN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MAID.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MANA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MCO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MEME.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MER.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MONA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MTL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MUE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MUSIC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-MYST.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NAV.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NBT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NEO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NEOS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NMR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NXC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NXS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-NXT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-OK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-OMG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-OMNI.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PART.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PAY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PINK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PIVX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PKB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-POT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-POWR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PPC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-PTOY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-QRL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-QTUM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-QWARK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-RADS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-RCN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-RDD.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-REP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-RISE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-RLC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SALT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SBD.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SHIFT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SIB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SLR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SLS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SNT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SPHR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SPR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-START.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-STEEM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-STORJ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-STRAT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SWT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SYNX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-SYS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-THC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-TIX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-TKS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-TRIG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-TRST.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-TX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-UBQ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-UKG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-UNB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-VIA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-VIB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-VOX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-VRC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-VTC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-WAVES.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-WINGS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XCP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XDN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XEL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XEM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XLM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XMG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XMR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XMY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XRP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XVG.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-XZC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ZCL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ZEC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BTC-ZEN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/USDT-BTC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tickers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +342,8 @@
       <file leaf-file-name="bittrex.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bittrex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -28,11 +351,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="USDT-BTC.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-archive/USDT-BTC.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1171">
+              <caret line="6508" column="39" selection-start-line="6508" selection-start-column="39" selection-end-line="6508" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="autoregressive.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoregressive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="850">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -40,42 +372,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTC-VIA.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/BTC-VIA.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1537">
-              <caret line="241" column="103" lean-forward="false" selection-start-line="241" selection-start-column="103" selection-end-line="241" selection-end-column="103" />
+            <state relative-caret-position="2496">
+              <caret line="375" column="1" selection-start-line="375" selection-start-column="1" selection-end-line="375" selection-end-column="1" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#233#2228#0" expanded="false" />
-                <element signature="e#2248#2824#0" expanded="false" />
-                <element signature="e#4280#4523#0" expanded="false" />
-                <element signature="e#4546#5274#0" expanded="false" />
-                <element signature="e#5302#5482#0" expanded="false" />
-                <element signature="e#5515#6052#0" expanded="false" />
-                <element signature="e#6224#6740#0" expanded="false" />
-                <element signature="e#6776#7009#0" expanded="false" />
+                <element signature="e#233#2228#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tickers.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/tickers.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2400">
-              <caret line="160" column="8" lean-forward="false" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,27 +412,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1058" />
+    <option name="y" value="-8" />
+    <option name="width" value="1066" />
+    <option name="height" value="1696" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -135,6 +430,16 @@
             <path>
               <item name="MorningStar" type="b2602c69:ProjectViewProjectNode" />
               <item name="MorningStar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MorningStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MorningStar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MorningStar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MorningStar" type="462c0819:PsiDirectoryNode" />
+              <item name="data-archive" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,6 +465,7 @@
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="bittrex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MorningStar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -170,13 +476,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MorningStar" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bittrex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MorningStar" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -187,25 +494,22 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MorningStar" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.bittrex" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+    <list>
+      <item itemvalue="Python.bittrex" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bittrex" />
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.bittrex" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -221,27 +525,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="-1058" y="-8" width="1066" height="1696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07361111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38757765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21400778" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969853" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38742784" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -255,13 +559,263 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bittrex.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7854">
+          <caret line="471" column="10" selection-start-line="471" selection-start-column="10" selection-end-line="471" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9891">
+          <caret line="471" column="10" lean-forward="true" selection-start-line="471" selection-start-column="10" selection-end-line="471" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6090">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5901">
+          <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5271">
+          <caret line="260" column="69" selection-start-line="260" selection-start-column="69" selection-end-line="260" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="174" column="66" selection-start-line="174" selection-start-column="66" selection-end-line="174" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-archive/BTC-VIA.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoregressive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tickers.txt" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="340" column="47" selection-start-line="340" selection-start-column="47" selection-end-line="340" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#233#2228#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -278,44 +832,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/BTC-VIA.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data-archive/BTC-VIA.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/tickers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="160" column="8" lean-forward="true" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tickers.txt" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2580">
           <caret line="334" column="34" lean-forward="true" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#233#2228#0" expanded="false" />
-            <element signature="e#2248#2824#0" expanded="false" />
-            <element signature="e#4280#4523#0" expanded="false" />
-            <element signature="e#4546#5274#0" expanded="false" />
-            <element signature="e#5302#5482#0" expanded="false" />
-            <element signature="e#5515#6052#0" expanded="false" />
-            <element signature="e#6224#6740#0" expanded="false" />
-            <element signature="e#6776#7009#0" expanded="false" />
+            <element signature="e#233#2228#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bittrex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -325,7 +859,7 @@
     <entry file="file://$PROJECT_DIR$/autoregressive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
-          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="61" />
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="61" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -338,14 +872,7 @@
           <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#233#2228#0" expanded="false" />
-            <element signature="e#2248#2824#0" expanded="false" />
-            <element signature="e#4280#4523#0" expanded="false" />
-            <element signature="e#4546#5274#0" expanded="false" />
-            <element signature="e#5302#5482#0" expanded="false" />
-            <element signature="e#5515#6052#0" expanded="false" />
-            <element signature="e#6224#6740#0" expanded="false" />
-            <element signature="e#6776#7009#0" expanded="false" />
+            <element signature="e#233#2228#0" />
           </folding>
         </state>
       </provider>
@@ -353,7 +880,7 @@
     <entry file="file://$PROJECT_DIR$/bittrex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -363,7 +890,7 @@
     <entry file="file://$PROJECT_DIR$/autoregressive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -373,71 +900,58 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3654">
-          <caret line="174" column="66" lean-forward="false" selection-start-line="174" selection-start-column="66" selection-end-line="174" selection-end-column="66" />
+          <caret line="174" column="66" selection-start-line="174" selection-start-column="66" selection-end-line="174" selection-end-column="66" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#233#2228#0" expanded="false" />
-            <element signature="e#2248#2824#0" expanded="false" />
-            <element signature="e#4280#4523#0" expanded="false" />
-            <element signature="e#4546#5274#0" expanded="false" />
-            <element signature="e#5302#5482#0" expanded="false" />
-            <element signature="e#5515#6052#0" expanded="false" />
-            <element signature="e#6224#6740#0" expanded="false" />
-            <element signature="e#6776#7009#0" expanded="false" />
+            <element signature="e#233#2228#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/BTC-VIA.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data-archive/BTC-VIA.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/tickers.txt" />
     <entry file="file://$PROJECT_DIR$/bittrex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/tickers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="160" column="8" lean-forward="false" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoregressive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="850">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data-archive/USDT-BTC.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1171">
+          <caret line="6508" column="39" selection-start-line="6508" selection-start-column="39" selection-end-line="6508" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BTC-1ST.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BTC-ADA.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1537">
-          <caret line="241" column="103" lean-forward="false" selection-start-line="241" selection-start-column="103" selection-end-line="241" selection-end-column="103" />
+        <state relative-caret-position="2496">
+          <caret line="375" column="1" selection-start-line="375" selection-start-column="1" selection-end-line="375" selection-end-column="1" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#233#2228#0" expanded="false" />
-            <element signature="e#2248#2824#0" expanded="false" />
-            <element signature="e#4280#4523#0" expanded="false" />
-            <element signature="e#4546#5274#0" expanded="false" />
-            <element signature="e#5302#5482#0" expanded="false" />
-            <element signature="e#5515#6052#0" expanded="false" />
-            <element signature="e#6224#6740#0" expanded="false" />
-            <element signature="e#6776#7009#0" expanded="false" />
+            <element signature="e#233#2228#0" />
           </folding>
         </state>
       </provider>

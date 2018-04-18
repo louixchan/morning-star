@@ -258,7 +258,7 @@ def fetchBittrexPrice():
 	time.sleep(30)
 	for item in tickersList:
 		print("%d out of %d" % ((i + 1), len(tickersList)))
-		bittrex.fetch_bittrex_data(marketName=item, tickInterval="hour", startDateTime=datetime.datetime(2017, 11, 1))
+		bittrex.fetch_bittrex_data(marketName=item, tickInterval="thirtyMin", startDateTime=datetime.datetime(2000, 1, 1))
 		i = i + 1
 		time.sleep(60)
 
@@ -374,6 +374,9 @@ def getReturnRate(df, dayCount):
 	return df
 
 def main():
+
+	fetchBittrexPrice()
+	exit(1)
 
 	global PRICES
 	global RESAMPLED_PRICES
